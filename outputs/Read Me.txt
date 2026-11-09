@@ -1,0 +1,118 @@
+CHORD PRACTICE
+
+Open “Chord Practice.app” to begin. You can move it to Applications or keep it in this folder.
+Requires macOS 13 Ventura or later. Works on Apple silicon and Intel Macs.
+
+Click Start practice. A new randomly selected chord appears every 4 seconds by default.
+
+CHORD SOUND
+The app plays the current chord when practice starts or resumes, whenever the chord changes,
+and when you click Next. Pause, session completion, and opening another tab stop the chord sound.
+
+Use the sound controls below the practice card:
+• Auto sound enables or disables automatic playback.
+• Instrument selects Piano, Electric piano, Nylon guitar, or Strings.
+• Tones opens individual choices for Root (1), 3rd / sus4, 5th, 7th, and 9th.
+  Quick presets include All tones, 3rd + 7th, and Root only.
+• Replay plays the current selection without changing the chord or countdown.
+  Replay also works while paused or with Auto sound off.
+
+Tones and volume can also be set in Settings. The Preview sound button lets you hear
+the current chord with those settings before saving. Your audio choices are remembered.
+Playback matches the written treble or bass register. Unavailable tones are omitted;
+for example, a triad has no seventh or ninth, and a sus4 chord substitutes the fourth for the third.
+If none of your selected tones are in the current chord, Replay is disabled and the app explains why.
+Supported custom chord symbols can be played; unrecognized symbols remain silent.
+In Staff only mode, audio controls do not reveal the chord name or note names.
+
+METRONOME
+Open the Metronome tab to set the tempo (30–300 BPM), tap a tempo, choose beats per bar,
+accent the first beat, and adjust the metronome volume. Click Start to begin and Stop to silence it.
+The beat indicators show your place in the bar.
+Opening Metronome pauses chord practice; return to Practice and click Resume when ready.
+The metronome keeps ticking when you return to Practice, so you can practise chords with a steady pulse.
+While it is running on another tab, click the BPM indicator near Settings to stop it.
+The metronome stops when the app window closes or your Mac sleeps.
+Chord sound and metronome volume are separate controls.
+
+CIRCLE OF FIFTHS
+Switch between Practice and Circle of Fifths using the tabs near the top.
+Click any major key on the outer ring or its relative minor on the inner ring.
+The center shows the selected major key, its relative minor, and its key signature.
+Use the Scale menu to choose Major (Ionian), Dorian, Phrygian, Lydian, Mixolydian,
+Natural minor (Aeolian), or Locrian. The selected note remains the tonic when changing modes.
+For example, F Dorian is F G A♭ B♭ C D E♭, and F Mixolydian is F G A B♭ C D E♭.
+The scale formula, notes, accidentals, and diatonic seventh chords update together.
+In Major mode the inner ring shows relative minors; in other modes it shows parent major keys.
+The center identifies the selected tonic and mode. The lower row shows a ii–V–I progression for
+Major, and the tonic chord plus parent major key for the other modes.
+Theoretical spellings that need double sharps or flats are shown explicitly.
+At F♯/G♭, use the center switch to choose either spelling and its matching key signature.
+Clockwise moves by perfect fifths; counterclockwise moves by perfect fourths.
+Opening this tab pauses practice. Return to Practice and click Resume when ready.
+
+DISPLAY MODES
+Use the Chords / Staff only / Both switch above the practice card.
+• Chords shows the chord symbol.
+• Staff only shows the chord tones on a five-line staff, hiding the chord name and composition formula.
+• Both shows the staff and the chord name underneath.
+Choose Treble or Bass beside the display switch. Chords use close, root-position voicings;
+treble starts on the root in octave 4, bass in octave 2. The display and clef are remembered.
+Switching these controls keeps the current chord and session countdown running.
+
+Staff notation supports all ten built-in chord types, plus custom symbols such as
+Dm7, G7, Cmaj7, B♭7, F♯m7, Cø7, Cdim7, Csus4, CmMaj7, and C7b9.
+Unsupported custom symbols (for example, Cmaj9 or slash chords) show an explanation.
+Staff only keeps their names hidden; Both shows them as chord names.
+
+CHORD COMPOSITION
+The numbers below the practice chord show its scale degrees relative to its root.
+The same formulas appear on each chord-type button and beside recognized custom chords in Settings.
+For example, a half-diminished chord is 1 ♭3 ♭5 ♭7.
+Minor major seventh (mMaj7) is 1 ♭3 5 7; dominant flat ninth (7♭9) is 1 3 5 ♭7 ♭9.
+Formulas appear in Chords and Both modes, and are hidden in Staff only mode.
+A diminished seventh uses ♭♭7.
+
+Click Settings to:
+• Set the interval from 0.5 to 300 seconds, or pick a quick preset.
+• Set Total practice time from 0.5 to 240 minutes (5 minutes by default),
+  or choose No time limit to keep going until you pause.
+• Select any combination of the 12 notes and 10 chord types.
+• Switch between flat and sharp note names.
+• Use Custom chord list for exact chords, such as Dm7, G7, Cmaj7.
+  Separate custom chords with commas, semicolons, or new lines. Duplicate entries are removed.
+
+Click Save, then Start practice. Your settings are remembered when you quit.
+Opening Settings pauses practice; Cancel leaves your settings as they were.
+The session countdown pauses too, so breaks do not use up your practice time.
+The app stops automatically when the total practice time is up. Click Practice again to start a fresh session.
+
+SHORTCUTS
+Space              Start / pause / resume
+Right arrow        Next chord (also restarts the interval)
+Command-comma      Settings
+Control-Command-F  Full screen
+Command-Q          Quit
+
+CHORD SYMBOLS
+C      Major
+C−     Minor
+C−7    Minor seventh
+C7     Dominant seventh
+CΔ7    Major seventh
+Cø7    Half-diminished seventh
+C°7    Diminished seventh
+Csus4  Suspended fourth
+CmMaj7 Minor major seventh
+C7♭9   Dominant flat ninth
+
+The app shuffles your complete chord pool, then keeps repeating it in new random orders until the session ends. Adjacent chords never repeat when at least two distinct chords are selected. A one-chord pool keeps the same chord displayed.
+
+This is a visual and audio practice aid. It does not listen to your instrument.
+Everything works offline. No accounts, downloads, or internet connection are needed.
+
+SOURCE
+The “Chord Practice Source” folder contains the complete editable Swift source.
+To rebuild, double-click Build.command in that folder. Building requires Apple's Xcode command line tools; running the included app does not.
+
+The app is locally signed for use on this Mac; it is not Apple-notarized for public distribution.

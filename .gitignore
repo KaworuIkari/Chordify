@@ -1,0 +1,16 @@
+.DS_Store
+.build/
+DerivedData/
+*.app/
+*.zip
+
+# Keep source and documentation alongside local build output.
+/outputs/*
+!/outputs/Chord Practice Source/
+!/outputs/Read Me.txt
+
+# Keep test source; exclude local builds, test binaries, and screenshots.
+/work/*
+!/work/tests/
+/work/tests/*
+!/work/tests/*.swift
